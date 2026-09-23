@@ -14,13 +14,11 @@ import {
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectTrigger,
-  SelectValue,
+  SelectTrigger
 } from "@/components/ui/select"
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { currentStudent,courses } from "@/lib/mock-data";
-import type { Course, Student } from "@/lib/types";
 type RegisterDialogProps = {
   onRegister: (courseId: string) => void;
 };
